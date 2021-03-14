@@ -1,0 +1,16 @@
+Cuando creamos un fichero 1)ENCONTRAR INODO LIBRE
+			   2)ASIGNARLE BLOQUES -> tendremos que ir al mapa de bits
+			   
+
+
+
+1) Escribir_bit
+  Marcamos en el mapa de bits que está ocupado.
+   
+    YA sabemos que bloque está libre, vamos a reservarlo. Bit 1000 está ocupado. donde está ese bit número 1000?
+      1-> en que bloque esta? posbyte = nbloque/8
+      posbit=nbloque % 8
+       nbloque MB =POSBYTE /bloxksize
+    
+
+
